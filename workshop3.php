@@ -11,7 +11,7 @@
         ชื่อสมาชิก: <?= $row["name"] ?> <br>
         ที่อยู่: <?= $row["address"] ?> <br>
         อีเมลล์: <?= $row["email"] ?> <br>
-        <img src="img/<?= $row["name"] ?>.jpg" width='100'>
+        <img src="member_photo/<?= $row["name"] ?>.jpg" width='100'>
         <hr>
     <?php } ?>
 </body>
